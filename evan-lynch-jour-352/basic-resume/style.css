@@ -5,6 +5,13 @@ body {
 	font-weight:  400;
 }
 
+#container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 50 px;
+}
+
 #name {
 	font-size: 3em;
 	color:  #33485e;
@@ -13,46 +20,93 @@ body {
 	width: 60%;
 	min-width: 300px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 img{
 	display: none;
 }
 
-b {
+#title {
 	text-transform:  uppercase;
 	font-size: 1.5em;
 	color: #33485e;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
-h2 {
+.menu {
+	margin:  0 auto;
+	padding: 0 auto;
+	text-align: center;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.sectionheader {
 	font-size: 1.5em;
 	text-transform:  uppercase;
 	background-color: #33485e;
 	color: white;
 	font-weight: 400;
+	margin-bottom: 10 px;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 70%;
+	min-width: 300px;
 }
 
-h3 {
+.jobtitle {
 	font-weight: 600;
 	font-size: 1.5em;
 }
 
-h4{
+.organization {
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
-h6{
+.date {
 	font-weight: 400;
-	font-style: itlaic;
+	font-style: italic;
 	font-size: 1em;
+	margin-top: 2px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
-ul li{
-	font-size: 1em;
-
+.descriptionn {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
 }
+
+.description {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#do {
+	font-size: 1em;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-weight: 700;
+}
+
 
 
 
