@@ -7,11 +7,13 @@
 	font-family: Helvetica, sans-serif;
 	font-size: 14px;
 	font-style: italic;
+	text-align: center;
 }
 
 h1 {
 	font-style: Helvetica, sans-serif;
 	font-size: 14px;
+	text-align: center;
 }
 
 p {
@@ -22,6 +24,7 @@ p {
 h2 {
 	font-style: Helvetica, sans-serif;
 	font-size: 14px;
+	text-align: center;
 }
 
 .pquote {
@@ -31,6 +34,7 @@ h2 {
     font-weight: bold;
     padding: 13px;
     margin: 0 13px 13px 0;
+    text-align: center;
 }
 
 blockquote {
@@ -40,5 +44,6 @@ blockquote {
 h3 {
 	font-style: Helvetica, sans-serif;
 	font-size: 14px;
+	text-align: center;
 }
 
