@@ -51,13 +51,6 @@ blockquote {
   display: table;
 }
 
-#fblogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px; 
-}
-
 #title {
 	text-transform:  uppercase;
 	font-size: 1.5em;
