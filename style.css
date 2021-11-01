@@ -61,6 +61,13 @@ blockquote {
     height: auto;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 #title {
 	text-transform:  uppercase;
