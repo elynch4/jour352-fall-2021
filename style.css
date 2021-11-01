@@ -41,7 +41,7 @@ blockquote {
 
 .img-container {
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
 }
 
@@ -50,6 +50,17 @@ blockquote {
   clear: both;
   display: table;
 }
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
 
 #title {
 	text-transform:  uppercase;
