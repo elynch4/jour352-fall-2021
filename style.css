@@ -46,13 +46,6 @@ blockquote {
   padding: 5px;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 /* Clear floats after image containers */
 .row::after {
   content: "";
