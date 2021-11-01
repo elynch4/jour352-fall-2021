@@ -39,11 +39,25 @@ blockquote {
 	background-color: skyblue;
 }
 
-img {
+/* Two image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #title {
