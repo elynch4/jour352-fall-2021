@@ -40,8 +40,8 @@ blockquote {
 }
 
 .img-container {
-  float: left;
-  width: 25%;
+  float: center;
+  width: 5%;
   padding: 5px;
 }
 
@@ -52,12 +52,12 @@ blockquote {
 }
 
 .resize {
-    width: 400px;
+    width: 200px;
     height: auto;
 }
 
 .resize {
-    width: 300px;
+    width: 100px;
     height: auto;
 }
 
