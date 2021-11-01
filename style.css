@@ -1,8 +1,15 @@
 body {
 	font-family:  Open Sans, Arial, sans-serif;
 	font-size:  1em;
-	color:  #444;
+	color:  black
 	font-weight:  400;
+	background-color: #7393B3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #container {
@@ -11,6 +18,14 @@ body {
 	margin: 0 auto;
 	padding-bottom: 50 px;
 }
+
+blockquote {
+	background-color: skyblue ; 
+	float: center;    width: 500px; 
+	color: black;    font-size: 30px; 
+	line-height: 0.9; 
+	font-style: italic; 
+	padding: 14px;}
 
 #name {
 	font-size: 3em;
@@ -21,16 +36,43 @@ body {
 	min-width: 300px;
 	margin: 0 auto;
 	text-align: center;
+	background-color: skyblue;
 }
 
-img{
-	display: none;
+.img-container {
+  float: center;
+  width: 5%;
+  padding: 5px;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.resize {
+    width: 200px;
+    height: auto;
+}
+
+.resize {
+    width: 100px;
+    height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 #title {
 	text-transform:  uppercase;
 	font-size: 1.5em;
-	color: #33485e;
+	color: black;
 	font-weight: 600;
 	text-align: center;
 	margin-top: 20px;
@@ -50,10 +92,10 @@ img{
 }
 
 .sectionheader {
-	font-size: 1.5em;
+	font-size: 2.5em;
 	text-transform:  uppercase;
-	background-color: #33485e;
-	color: white;
+	background-color: skyblue;
+	color: black;
 	font-weight: 400;
 	margin-bottom: 10 px;
 	margin-top: 20px;
@@ -98,6 +140,14 @@ img{
 	margin-right: 0px;
 }
 
+.samples {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
 #do {
 	font-size: 1em;
 	margin-top: 5px;
@@ -106,15 +156,3 @@ img{
 	margin-right: 0px;
 	font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
-
-
