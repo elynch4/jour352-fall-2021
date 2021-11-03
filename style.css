@@ -49,15 +49,12 @@ p {
   display: table;
 }
 
-.resize {
+img.resize {
     width: 200px;
-    height: auto;
+    height: 40;
 }
 
-.resize {
-    width: 100px;
-    height: auto;
-}
+
 
 .center {
   display: block;
