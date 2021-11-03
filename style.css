@@ -37,6 +37,36 @@ p {
 	font-size: 12px;
 }
 
+.img-container {
+  float: center;
+  width: 5%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.resize {
+    width: 200px;
+    height: auto;
+}
+
+.resize {
+    width: 100px;
+    height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 .pquote {
     float: left;
     width: 100px;
