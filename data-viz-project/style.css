@@ -1,0 +1,92 @@
+#content {
+	margin:  0 auto;
+	width:  900px;
+}
+
+#byline {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+}
+
+<style>
+.banner {
+    /* The image used */
+    background-image:
+    url(rapinoe2.jpg);
+  }
+</style>
+
+< ! -- I was not sure if we should center our headings but I did anyway -->
+
+h1 {
+	font-style: sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+h2 {
+	font-style:  sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+h3 {
+    font-style:  sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+h4 {
+    font-style:  sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+p {
+	font-style: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.img-container {
+  float: center;
+  width: 5%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img.resize {
+    width: 400px;
+    height: 300;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.pquote {
+    float: left;
+    width: 100px;
+    background: #ddf;
+    font-weight: bold;
+    padding: 13px;
+    margin: 0 13px 13px 0;
+    text-align: center;
+   	color: babyblue;
+}
+
+blockquote {
+    margin: 0; /* gets rid of the default blockquote margin */
+}
