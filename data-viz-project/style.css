@@ -72,7 +72,10 @@ img.resize {
     height: 300;
 }
 
-
+img {
+  width: 400px,
+  height: 300px
+}
 
 .center {
   display: block;
