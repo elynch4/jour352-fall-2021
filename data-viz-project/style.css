@@ -10,6 +10,13 @@
 	text-align: center;
 }
 
+body {
+    font-family:  Open Sans, Arial, sans-serif;
+    font-size:  1em;
+    color:  #444;
+    font-weight:  400;
+}
+
 <style>
 .banner {
     /* The image used */
@@ -82,9 +89,7 @@ img.resize {
     font-weight: bold;
     padding: 13px;
     margin: 0 13px 13px 0;
-    text-align: center;
-   	color: blue;
-}
+    }
 
 blockquote {
     margin: 0; /* gets rid of the default blockquote margin */
