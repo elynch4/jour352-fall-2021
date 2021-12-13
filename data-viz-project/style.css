@@ -23,6 +23,12 @@ header li a {
     text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family:  Open Sans, Arial, sans-serif;
     font-size:  1em;
