@@ -15,6 +15,7 @@ body {
     font-size:  1em;
     color:  #444;
     font-weight:  400;
+    background-color: lightblue;
 }
 
 <style>
@@ -67,14 +68,9 @@ p {
   display: table;
 }
 
-img.resize {
-    width: 400px;
-    height: 300;
-}
-
 img {
-  width: 400px,
-  height: 300px
+  width: 100%;
+  height: auto;
 }
 
 .center {
@@ -85,14 +81,18 @@ img {
 }
 
 
-.pquote {
-    float: left;
-    width: 100px;
-    background: #ddf;
-    font-weight: bold;
-    padding: 13px;
-    margin: 0 13px 13px 0;
-    }
+.pulledquote {
+    display: block;
+    float: right;
+    padding: 0 0 0 10px;
+    margin: 0 0 10px 10px;
+    width: 170px;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    text-align: right;
+    color: #666;
+    border-left: 3px solid #ccc;
+}
 
 blockquote {
     margin: 0; /* gets rid of the default blockquote margin */
