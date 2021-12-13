@@ -68,11 +68,6 @@ p {
   display: table;
 }
 
-img.resize {
-    width:540px; /* you can use % */
-    height: auto;
-}
-
 .center {
   display: block;
   margin-left: auto;
@@ -92,6 +87,11 @@ img.resize {
     padding: 13px;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 blockquote {
     margin: 0;
 }
@@ -99,6 +99,7 @@ blockquote {
 .pquote p:first-letter {
     font-size: 39px;
     font-weight: bold;
+    color:  #999;
 }
 
 blockquote {
