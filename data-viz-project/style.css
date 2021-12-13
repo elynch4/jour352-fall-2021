@@ -85,7 +85,8 @@ img.resize {
     float: right;
     width: 200px;
     background: url(images/openquote.gif) top left no-repeat;
-    color: darkblue;
+    background-color: darkblue;
+    color: white;
     font-size: 26px;
     line-height: 0.9;
     font-style: italic;
