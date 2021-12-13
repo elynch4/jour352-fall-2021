@@ -68,6 +68,11 @@ p {
   display: table;
 }
 
+img.resize {
+    width: 400px;
+    height: 300;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -80,16 +85,11 @@ p {
     float: right;
     width: 200px;
     background: url(images/openquote.gif) top left no-repeat;
-    color: #030;
+    color: darkblue;
     font-size: 26px;
     line-height: 0.9;
     font-style: italic;
     padding: 13px;
-}
-
-img {
-  height: auto;
-  max-width: 100%;
 }
 
 blockquote {
@@ -99,7 +99,6 @@ blockquote {
 .pquote p:first-letter {
     font-size: 39px;
     font-weight: bold;
-    color:  #999;
 }
 
 blockquote {
